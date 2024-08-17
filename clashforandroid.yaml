@@ -1,22 +1,6 @@
 proxies:
-  - name: Ohyes
-    server: quiz.vidio.com
-    port: 80
-    type: vmess
-    uuid: ce1776e4-ae7d-436c-ac41-288606819296
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: vip.zettastore.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: vip.zettastore.xyz
-    udp: true
   - name: jagoanssh
-    server: quiz.vidio.com
+    server: 104.26.7.171
     port: 80
     type: vmess
     uuid: 70fe17d7-6bb5-4cbe-9b30-bd71c0b3c9f0
