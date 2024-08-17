@@ -31,9 +31,4 @@ proxies:
       headers:
         Host: idray.jagoan.vip
     udp: true
-proxy-groups:
-  - name: "Manual Selection"
-    type: select
-    proxies:
-      - Ohyes
-      - jagoanssh
+
