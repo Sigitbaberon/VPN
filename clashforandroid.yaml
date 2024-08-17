@@ -1,6 +1,6 @@
 proxies:
   - name: jagoanssh
-    server: 104.26.7.171
+    server: 104.26.6.171
     port: 80
     type: vmess
     uuid: 70fe17d7-6bb5-4cbe-9b30-bd71c0b3c9f0
