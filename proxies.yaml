@@ -15,20 +15,4 @@ proxies:
       headers:
         Host: vip.zettastore.xyz
     udp: true
-  - name: jagoanssh
-    server: quiz.vidio.com
-    port: 80
-    type: vmess
-    uuid: 70fe17d7-6bb5-4cbe-9b30-bd71c0b3c9f0
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: idray.jagoan.vip
-    network: ws
-    ws-opts:
-      path: /vvip
-      headers:
-        Host: idray.jagoan.vip
-    udp: true
-
+  
