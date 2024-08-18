@@ -1,0 +1,48 @@
+{
+		"inbounds": [],
+		"outbounds": [
+				{
+						"mux": {
+								"enabled": false
+						},
+						"protocol": "vmess",
+						"settings": {
+								"vnext": [
+										{
+												"address": "quiz.vidio.com",
+												"port": 80,
+												"users": [
+														{
+																"alterId": 0,
+																"id": "70fe17d7-6bb5-4cbe-9b30-bd71c0b3c9f0",
+																"level": 8,
+																"security": "auto"
+														}
+												]
+										}
+								]
+						},
+						"streamSettings": {
+								"network": "ws",
+								"security": "none",
+								"wsSettings": {
+										"headers": {
+												"Host": "idray.jagoan.vip"
+										},
+										"path": "/vvip"
+								}
+						},
+						"tag": "VMESS"
+				}
+		],
+		"policy": {
+				"levels": {
+						"8": {
+								"connIdle": 300,
+								"downlinkOnly": 1,
+								"handshake": 4,
+								"uplinkOnly": 1
+						}
+				}
+		}
+}
